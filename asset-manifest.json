@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lasercat_arduino/static/css/main.0c37dd3e.css",
+    "main.js": "/lasercat_arduino/static/js/main.3b1d0ea0.js",
+    "index.html": "/lasercat_arduino/index.html",
+    "main.0c37dd3e.css.map": "/lasercat_arduino/static/css/main.0c37dd3e.css.map",
+    "main.3b1d0ea0.js.map": "/lasercat_arduino/static/js/main.3b1d0ea0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c37dd3e.css",
+    "static/js/main.3b1d0ea0.js"
+  ]
+}
