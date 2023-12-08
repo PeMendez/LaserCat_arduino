@@ -1,0 +1,146 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.home-container {
+  margin-top: 60px !important;
+  border: solid #110f1e;
+  border-radius: 5px;
+  max-width: 60% !important;
+  background-color: #222129 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 70vh !important;
+}
+
+@media (max-width: 768px) {
+  .home-container{
+    max-width: 90% !important;
+  }
+}
+
+.tittle-main {
+  margin-bottom:  10px !important;
+  font-weight: 900 !important;
+  border-bottom: solid #110f1e;
+  text-align: center !important;
+}
+
+.title-text {
+  font-size: xx-large;
+}
+
+.home-div {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  text-align: center !important;
+  position: relative !important;
+}
+
+.button-info {
+  display: flex !important;
+  justify-content: flex-end !important;
+  position: absolute;
+  right: 10px;
+  bottom: 70%;
+}
+
+.button-info button {
+  margin-right: 5px;
+}
+
+.info {
+  font-size: samll;
+}
+
+.button-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.button-game .mb-4 {
+  margin: 0 10px;
+}
+
+.outline-custom {
+  color: hsl(263, 100%, 71%);
+  border-color: hsl(263, 100%, 71%);
+  font-size: samll !important;
+  background-color: transparent;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: hsl(263, 100%, 71%);
+  --bs-btn-border-color: hsl(263, 100%, 71%);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: hsl(263, 100%, 71%);
+  --bs-btn-hover-border-color: hsl(263, 100%, 71%);
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: hsl(263, 100%, 71%);
+  --bs-btn-active-border-color: hsl(263, 100%, 71%);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: hsl(263, 100%, 71%);
+  --bs-btn-disabled-border-color: hsl(263, 100%, 71%);
+}
+
+.outline-custom:hover {
+  background-color: hsl(263, 100%, 71%);
+  color: #000000;
+  border-color: hsl(263, 100%, 71%);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.icons svg {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.img-sheldon {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.table-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+}
+
+.tittle {
+  margin-bottom: 20px !important;
+  border-bottom: solid #110f1e;
+  text-align: center !important;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.subtitle-text {
+  font-size: x-large;
+}
+
+.categoria{
+  width: -webkit-fill-available;
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.color-sub{
+  color: #c387dd;
+}
