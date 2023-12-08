@@ -11,7 +11,7 @@
   background-color: #222129 !important;
   display: flex !important;
   flex-direction: column !important;
-  height: 70vh !important;
+  height: 87vh !important;
 }
 
 @media (max-width: 768px) {
@@ -129,7 +129,7 @@
 }
 
 .subtitle-text {
-  font-size: x-large;
+  font-size: large;
 }
 
 .categoria{
