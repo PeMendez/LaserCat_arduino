@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button'
 import './App.css'; 
 import {
   configureLaser,
+  configureCorners,
   configureAutoplay,
   configSpeedUp,
   configSpeedDown,
@@ -33,6 +34,7 @@ const App = () => {
         <div className='button-game mb-1'>
           <Button className='mb-4 info' variant="outline-info" onClick={configureLaser}>Configurar Láser</Button>
           <Button className='mb-4 info' variant="outline-info" onClick={configureAutoplay}>Autoplay</Button>
+          <Button className='mb-4 info' variant="outline-info" onClick={configureCorners}>Corners</Button>
         <div className='categoria'>
           <h6><span className="subtitle-text color-sub">Velocidad</span></h6>
         </div>

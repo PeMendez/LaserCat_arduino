@@ -15,6 +15,17 @@ export const configureLaser = async () => {
   }
 };
 
+export const configureCorners = async () => {
+  try {
+    const response = await configApi.post("/corners");
+    console.log("Configuración hacia las esquinas exitosa:", response.data);
+    return response;
+  } catch (error) {
+    console.error("Error al configurar hacia las esquinas:", error.message);
+    throw error; 
+  }
+};
+
 export const configureAutoplay = async () => {
   try {
     const response = await configApi.post("/autoplay");
